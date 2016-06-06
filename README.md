@@ -7,4 +7,4 @@ For sharing video to Line, Uri must be `content://`
 like `content://media/external/video/media/3338`  
 
 For normal sharing, Uri could be `file://`  
-like `file:///storage/emulated/0/Movies/Pamily/VID_20160606_192449WaterMark.mp4`
+like `file:///storage/emulated/0/Movies/ABC/abc.mp4`
