@@ -20,7 +20,7 @@ The following steps would meet error
 
 The reason is in Android 6, system is runtime permission checking. Your uri is `file://`, so the target app should have an permission of `READ_EXTERNAL_STORAGE`, but your taget app do not grant it this permission, so it would popup error
 
-Please check the following link for more details
+Please check the following link for more details  
 [Android 6: cannot share files anymore?](http://stackoverflow.com/questions/32981194/android-6-cannot-share-files-anymore)
 
 [Runtime Permissions, Files, and ACTION_SEND](https://commonsware.com/blog/2015/10/07/runtime-permissions-files-action-send.html)
