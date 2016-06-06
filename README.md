@@ -8,3 +8,6 @@ like `content://media/external/video/media/3338`
 
 For normal sharing, Uri could be `file://`  
 like `file:///storage/emulated/0/Movies/ABC/abc.mp4`
+
+For how to convert file path to content uri, or to file uri, please check the following link  
+[link](./share/README.md)
