@@ -1,6 +1,6 @@
 ## Share
 
-For basic sharing, please check the following link
+For basic sharing, please check the following link  
 https://github.com/codepath/android_guides/wiki/Sharing-Content-with-Intents
 
 For sharing video to Line, Uri must be `content://`  
