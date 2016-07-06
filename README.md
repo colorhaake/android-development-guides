@@ -23,3 +23,21 @@ The reason is in Android 6, system is runtime permission checking. Your uri is `
 Please check the following link for more details  
 [Android 6: cannot share files anymore?](http://stackoverflow.com/questions/32981194/android-6-cannot-share-files-anymore)  
 [Runtime Permissions, Files, and ACTION_SEND](https://commonsware.com/blog/2015/10/07/runtime-permissions-files-action-send.html)
+
+## Device memory limit
+ASUS Zenphone 2  
+dalvik.vm.heapgrowthlimit=200m  
+dalvik.vm.heapsize=348m  
+
+Xiaomi Mi 4i  
+dalvik.vm.heapgrowthlimit=128m  
+dalvik.vm.heapsize=256m  
+
+Nexus 5  
+dalvik.vm.heapgrowthlimit=192m  
+dalvik.vm.heapsize=512m  
+
+heapgrowthlimit是一般情況下的heap size  
+heapsize是使用largeHeap後，可以用的最大heap size  
+
+結論是小米手機heap真的很小  
