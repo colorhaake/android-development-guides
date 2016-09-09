@@ -41,3 +41,6 @@ heapgrowthlimit是一般情況下的heap size
 heapsize是使用largeHeap後，可以用的最大heap size  
 
 結論是小米手機heap真的很小  
+
+## 如何粗略的計算image被讀進memory之後的size是多大
+[link](./memory/README.md)
